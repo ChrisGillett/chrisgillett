@@ -9,10 +9,7 @@ class: single
 {% endif %}
 
 <div class="width">
-	<h1>{{ page.title }}</h1>
-	{% if page.type %}
-	<h2 class="type">{{ page.type }}</h2>
-	{% endif %}
+	<h1>{{ page.title }}{% if page.type %} <span>({{ page.type }})</span>{% endif %}</h1>
 
 	{{ content }}
 
