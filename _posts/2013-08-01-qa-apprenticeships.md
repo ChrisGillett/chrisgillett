@@ -3,11 +3,8 @@ published: true
 layout: post
 title: QA Apprenticeships
 category: banners
-
+image: http://i.imgur.com/MgAT3oT.png?1
 ---
-
-![picture alt](http://i.imgur.com/MgAT3oT.png?1)
-
 
 
 
