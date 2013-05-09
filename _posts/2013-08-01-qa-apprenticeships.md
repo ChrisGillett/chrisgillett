@@ -6,7 +6,7 @@ category: banners
 
 ---
 
-![picture alt](http://imgur.com/MgAT3oT)
+![picture alt](http://i.imgur.com/MgAT3oT.png?1)
 
 
 
