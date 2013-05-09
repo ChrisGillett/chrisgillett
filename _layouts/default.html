@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>{% if page.title %}{{ page.title }} &middot; Chris Gillett{% else %}Chris Gillet &middot; Copywriter{% endif %}</title>
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="{{ page.class }}">
+
+	<header class="head" role="banner">
+		<div class="width">
+			{% include header.html %}
+		</div><!--/.width-->
+	</header><!--/.head-->
+
+	<div class="content" role="main">
+		{{ content }}
+	</div><!--/.content-->
+
+	<footer class="foot" role="contentinfo">
+		<div class="width">
+			{% include footer.html %}
+		</div><!--/.width-->
+	</footer><!--/.foot-->
+
+</body>
+</html>

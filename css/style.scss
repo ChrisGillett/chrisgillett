@@ -1,0 +1,229 @@
+/*==================================================*/
+/*  §NORMALIZE
+/*==================================================*/
+@import 'normalize';
+/*==================================================*/
+/*  §VARS
+/*==================================================*/
+
+$font-family: 'Open Sans', sans-serif;
+$background-color: white;
+$color: #4a4a4a;
+$anchor-color: #4183c4;
+$anchor-hover: #336393;
+
+$base-unit: 1.5em;
+
+@mixin width {
+	max-width: 30em;
+	width: 80%;
+	margin: 0 auto;
+}
+
+@mixin vendor($property, $value...){
+    -webkit-#{$property}: $value;
+       -moz-#{$property}: $value;
+        -ms-#{$property}: $value;
+         -o-#{$property}: $value;
+            #{$property}: $value;
+}
+
+/*==================================================*/
+/*  §DOCUMENT
+/*==================================================*/
+
+html {
+	background-color: $background-color;
+	color: $color;
+	font-family: $font-family;
+	line-height: $base-unit;
+	font-size: 1em;
+}
+
+.width {
+	@include width;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*==================================================*/
+/*  §TYPOGRAPHY
+/*==================================================*/
+
+h1,h2,h3,p,ul {
+	margin: 0 0 $base-unit 0;
+}
+
+a {
+	color: $anchor-color;
+	text-decoration: none;
+
+	&:hover {
+		color: $anchor-hover;
+	}
+
+}
+
+/*==================================================*/
+/*  §HEADER
+/*==================================================*/
+
+.head {
+
+	.width {
+		padding: $base-unit * 2 0;
+		margin-bottom: $base-unit * 2;
+		/*border-bottom: 1px solid #ccc;*/
+		background: url(/img/line.png) no-repeat left bottom;
+	}
+
+	.avatari {
+		display: block;
+		width: 125px;
+		height: 125px;
+		overflow: hidden;
+		position: relative;
+		left: 50%;
+		margin-left: -62px;
+
+		img {
+			@include vendor(border-radius, 100%);
+		}
+
+		.twitter {
+			position: absolute;
+			top: 0;
+			display: block;
+			width: 125px;
+			height: 125px;
+			background-color: $anchor-color;
+			background-image: url(/img/twitter.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 60px;
+			zoom: 1;
+			filter: alpha(opacity=0);
+			opacity: 0;
+			@include vendor(border-radius, 100%);
+			@include vendor(transition, 300ms ease);
+		}
+
+		&:hover {
+
+			.twitter {
+				filter: alpha(opacity=80);
+				opacity: .8;
+			}
+
+		}
+
+	}
+
+	h1 {
+		font-size: 1em;
+		margin: 0;
+		overflow: hidden;
+	}
+
+	p {
+		text-align: left;
+	}
+
+	.home {
+		float: left;
+	}
+
+	.twitter-handle {
+		float: right;
+		font-weight: normal;
+	}
+
+}
+
+/*==================================================*/
+/*  §CONTENT
+/*==================================================*/
+
+.intro {
+	padding-bottom: $base-unit * 2;
+	margin-bottom: $base-unit * 2;
+	background: url(/img/line.png) no-repeat left bottom;
+
+	p:last-of-type {
+		margin: 0;
+	}
+
+}
+
+.content {
+	margin-bottom: $base-unit * 2;
+	overflow: hidden;
+
+	h1 {
+		margin: 0 0 $base-unit 0;
+		font-size: 1em;
+	}
+
+	.type {
+		color: #999;
+		font-size: 1em;
+		margin: 0;
+	}
+
+	.featuredimg {
+		max-width: 50em;
+		width: 90%;
+		margin: 0 auto $base-unit auto;
+	}
+
+	.visit {
+		color: #999;
+
+		a {
+			display: block;
+		}
+
+	}
+
+}
+
+.index {
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0 0 $base-unit 0;
+
+		&:last-of-type {
+			margin: 0;
+		}
+
+	}
+
+}
+
+/*==================================================*/
+/*  §FOOTER
+/*==================================================*/
+
+.foot {
+
+	.width {
+		background: url(/img/line.png) no-repeat left top;
+		padding: $base-unit * 2 0;
+	}
+
+	p {
+		font-size: .875em;
+		line-height: $base-unit;
+	}
+
+	.copy {
+		color: #999;
+		margin: 0;
+	}
+
+}

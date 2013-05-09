@@ -1,0 +1,83 @@
+---
+layout: default
+class: index
+---
+<div class="width">
+	<div class="intro">
+		<h1>I'm Chris Gillett</h1>
+		<p>I am an experienced Berkshire based copywriter. I have written copy on all digital channels in all digital formats for a multitude of B2B and B2C clients.</p>
+		<p>All of my copy is written to specification, grammatically correct, audience-specific, SEO rich and targeted to achieve pre-set campaign goals and objectives.</p>
+	</div><!--/.intro-->
+
+	<h1>Websites</h1>
+	<ul>
+	{% for post in site.categories.websites %}
+		<li>
+			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		</li>
+	{% endfor %}
+	</ul>
+
+	<h1>Digital Content Pieces</h1>
+	<ul>
+	{% for post in site.categories.digital-content-pieces %}
+		<li>
+			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		</li>
+	{% endfor %}
+	</ul>
+
+	<h1>Blogs</h1>
+	<ul>
+	{% for post in site.categories.blogs %}
+		<li>
+			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		</li>
+	{% endfor %}
+	</ul>
+
+	<h1>Email Marketing</h1>
+	<ul>
+	{% for post in site.categories.email-marketing %}
+		<li>
+			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		</li>
+	{% endfor %}
+	</ul>
+
+	<h1>Facebook tabs</h1>
+	<ul>
+	{% for post in site.categories.facebook-tabs %}
+		<li>
+			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		</li>
+	{% endfor %}
+	</ul>
+
+	<h1>Social Media</h1>
+	<ul>
+	{% for post in site.categories.social-media %}
+		<li>
+			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		</li>
+	{% endfor %}
+	</ul>
+
+	<h1>PPC</h1>
+	<ul>
+	{% for post in site.categories.ppc %}
+		<li>
+			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		</li>
+	{% endfor %}
+	</ul>
+
+	<h1>Banners</h1>
+	<ul>
+	{% for post in site.categories.banners %}
+		<li>
+			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		</li>
+	{% endfor %}
+	</ul>
+</div><!--/.width-->

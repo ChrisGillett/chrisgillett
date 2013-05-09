@@ -1,0 +1,40 @@
+---
+layout: default
+class: single
+---
+{% if page.image %}
+<div class="featuredimg">
+	<img src="{{ page.image }}" alt="{{ page.title }}" />
+</div><!--/.featuredimg-->
+{% endif %}
+
+<div class="width">
+	<h1>{{ page.title }}</h1>
+	{% if page.type %}
+	<h2 class="type">{{ page.type }}</h2>
+	{% endif %}
+
+	{{ content }}
+
+	{% if page.external-url %}
+		{% if page.category == 'websites' %}
+		<p class="visit">URL<a href="{{ page.external-url }}">{{ page.external-url }}</a></p>
+		{% elsif page.category == 'digital-content-pieces' %}
+		<p class="visit">URL<a href="{{ page.external-url }}">{{ page.external-url }}</a></p>
+		{% elsif page.category == 'blogs' %}
+		<p class="visit">URL<a href="{{ page.external-url }}">{{ page.external-url }}</a></p>
+		{% elsif page.category == 'email-marketing' %}
+		<p class="visit">URL<a href="{{ page.external-url }}">{{ page.external-url }}</a></p>
+		{% elsif page.category == 'facebook-tabs' %}
+		<p class="visit">URL<a href="{{ page.external-url }}">{{ page.external-url }}</a></p>
+		{% elsif page.category == 'social-media' %}
+		<p class="visit">URL<a href="{{ page.external-url }}">{{ page.external-url }}</a></p>
+		{% elsif page.category == 'ppc' %}
+		<p class="visit">URL<a href="{{ page.external-url }}">{{ page.external-url }}</a></p>
+		{% elsif page.category == 'banners' %}
+		<p class="visit">URL<a href="{{ page.external-url }}">{{ page.external-url }}</a></p>
+		{% elsif page.category == 'ppc' %}
+		<p class="visit">URL<a href="{{ page.external-url }}">{{ page.external-url }}</a></p>
+		{% endif %}
+	{% endif %}
+</div><!--/.width-->
