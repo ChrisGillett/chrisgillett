@@ -6,7 +6,7 @@ category: banners
 
 ---
 
-![picture alt](http://bellashorses.co.uk/wp-content/uploads/2013/01/Puerto_rican-Paso-Fino-Horse-chestnut.jpg)
+![picture alt](http://imgur.com/MgAT3oT)
 
 
 
