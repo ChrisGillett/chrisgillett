@@ -6,7 +6,7 @@ category: banners
 
 ---
 
-![picture alt](http://placekitten.com/200/300)
+![picture alt](http://bellashorses.co.uk/wp-content/uploads/2013/01/Puerto_rican-Paso-Fino-Horse-chestnut.jpg)
 
 
 
