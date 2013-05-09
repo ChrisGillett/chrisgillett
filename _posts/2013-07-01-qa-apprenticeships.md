@@ -3,10 +3,10 @@ published: true
 layout: post
 title: QA Apprenticeships
 category: ppc
-
+image: http://i.imgur.com/4gUo0Kd.png?1
 ---
 
-![picture alt](http://i.imgur.com/4gUo0Kd.png?1)
+
 
 Falling behind close competitor Zenos, QA Apprenticeships were looking to aggressively outbid and outrank them to portray their multi-layered messaged to a wider audience. 
 
