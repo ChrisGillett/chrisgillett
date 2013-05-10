@@ -3,9 +3,8 @@ published: true
 layout: post
 title: Paymaster International
 category: ppc
-image: http://i.imgur.com/qeA9qXE.png?1
+image: "/img/paymaster-ppc.png"
 ---
-
 
 This subset of Citi Bank required a PPC campaign that focussed on the 3 key services they provide:
 
