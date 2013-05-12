@@ -9,13 +9,13 @@ category: taglines
 <u>3seven9</u> 
 <br>
 
-![picture alt](http://i.imgur.com/o1cdteE.png)
-<br>
+
 
 _'Create & Engage. We create and build innovative connections with your customers.'_
 <br>
 <p class="visit">URL<a href="http://3seven9.com">http://3seven9.com</a></p>
-
+![picture alt](http://i.imgur.com/o1cdteE.png)
+<br>
 
 <u>Precision Point</u> <br>
 
