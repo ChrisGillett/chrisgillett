@@ -80,4 +80,12 @@ class: index
 		</li>
 	{% endfor %}
 	</ul>
+	<h1>Taglines</h1>
+	<ul>
+	{% for post in site.categories.banners %}
+		<li>
+			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		</li>
+	{% endfor %}
+	</ul>
 </div><!--/.width-->
