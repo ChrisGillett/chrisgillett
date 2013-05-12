@@ -27,3 +27,10 @@ _'Blast your way to a new IT career'_
 ![picture alt](http://i.imgur.com/Jfc0JUc.png)
 <p class="visit">URL<a href="http://careerboost.comptia.org/">http://careerboost.comptia.org/</a></p>
 
+<u>QA Apprenticeships</u> <br>
+<br>
+_'Blast your way to a new IT career'_
+<br>
+![picture alt](http://i.imgur.com/cX2VJE8.png)
+<p class="visit">URL<a href="https://www.facebook.com/QAApprentices/app_189116767802011">https://www.facebook.com/QAApprentices</a></p>
+
