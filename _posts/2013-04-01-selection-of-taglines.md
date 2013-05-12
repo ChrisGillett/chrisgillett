@@ -29,7 +29,7 @@ _'Blast your way to a new IT career'_
 
 <u>QA Apprenticeships</u> <br>
 <br>
-_'Blast your way to a new IT career'_
+_'The smarter way to a brighter future'_
 <br>
 ![picture alt](http://i.imgur.com/cX2VJE8.png)
 <p class="visit">URL<a href="https://www.facebook.com/QAApprentices/app_189116767802011">https://www.facebook.com/QAApprentices</a></p>
