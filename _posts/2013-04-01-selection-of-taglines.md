@@ -6,7 +6,7 @@ category: taglines
 
 ---
 
-**3seven9 **<br>
+<u>3seven9 </u> <br>
 _'Create & Engage. We create and build innovative connections with your customers.'_
 ![picture alt](http://i.imgur.com/o1cdteE.png)
 
