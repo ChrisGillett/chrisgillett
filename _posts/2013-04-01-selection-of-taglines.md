@@ -10,6 +10,9 @@ category: taglines
 _'Create & Engage. We create and build innovative connections with your customers.'_
 <br>
 ![picture alt](http://i.imgur.com/o1cdteE.png)
+[Google](http://3seven9.com)
+
+
 
 <u>Precision Point</u> <br>
 _'Get to the point'_
