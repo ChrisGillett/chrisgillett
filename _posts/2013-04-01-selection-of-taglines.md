@@ -18,7 +18,7 @@ _'Create & Engage. We create and build innovative connections with your customer
 _'Get to the point'_
 <br>
 ![picture alt](http://i.imgur.com/yBjXoJQ.png)
-<p class="visit">URL<a href="http://www.precision-point.com/">http://www.precision-point.com/</a></p>
+<p class="visit">URL<a href="http://www.precision-point.com/">www.precision-point.com/</a></p>
 
 <u>CompTIA</u> <br>
 <br>
@@ -32,5 +32,11 @@ _'Blast your way to a new IT career'_
 _'The smarter way to a brighter future'_
 <br>
 ![picture alt](http://i.imgur.com/cX2VJE8.png)
-<p class="visit">URL<a href="https://www.facebook.com/QAApprentices/app_189116767802011">https://www.facebook.com/QAApprentices</a></p>
+<p class="visit">URL<a href="https://www.facebook.com/QAApprentices/app_189116767802011">www.facebook.com/QAApprentices</a></p>
 
+<u>The Jazz Cafe</u> <br>
+<br>
+_'Keeping live music alive!'_
+<br>
+![picture alt](http://i.imgur.com/1HxiJg4.png)
+<p class="visit">URL<a href="http://www.thejazzcafe.co.uk/">www.thejazzcafe.co.uk/</a></p>
