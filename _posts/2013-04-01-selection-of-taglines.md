@@ -10,9 +10,7 @@ category: taglines
 _'Create & Engage. We create and build innovative connections with your customers.'_
 <br>
 ![picture alt](http://i.imgur.com/o1cdteE.png)
-[Google](http://3seven9.com)
-
-<p class="visit">URL<a href="http://www.cirrus-tech-solutions.com/">http://www.cirrus-tech-solutions.com/</a></p>
+<p class="visit">URL<a href="http://3seven9.com">http://3seven9.com</a></p>
 
 
 <u>Precision Point</u> <br>
