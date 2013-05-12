@@ -32,6 +32,8 @@ class: single
 		<p class="visit">URL<a href="{{ page.external-url }}">{{ page.external-url }}</a></p>
 		{% elsif page.category == 'ppc' %}
 		<p class="visit">URL<a href="{{ page.external-url }}">{{ page.external-url }}</a></p>
+		{% if page.category == 'taglines' %}
+		<p class="visit">URL<a href="{{ page.external-url }}">{{ page.external-url }}</a></p>
 		{% endif %}
 	{% endif %}
 </div><!--/.width-->
